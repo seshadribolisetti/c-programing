@@ -1,0 +1,19 @@
+//Program to find difference between n even nos and odd nos//
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n=1,even_sum=0,odd_sum=0,diff;
+	while(n<=10)
+	{
+	   printf("%d\n",n);
+	   if(n%2==0)
+       even_sum=even_sum+n;
+       else
+       odd_sum=odd_sum+n;
+	   n++;
+    }
+    printf("\nEven sum=%d\nOdd sum=%d",even_sum,odd_sum);
+    diff=even_sum-odd_sum;
+    printf("\nDifference :%d",diff);
+}
