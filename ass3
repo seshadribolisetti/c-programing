@@ -1,0 +1,15 @@
+//Program to find factorial of a number//
+#include<stdio.h>
+#include<conio.h>
+void main() 
+{
+	int i=1,f=1,num;
+	printf("Enter the number to find factorial:");
+	scanf("%d",&num);
+	while(i<=num)
+	{
+		f=f*i;
+		i++;
+	}
+	printf("The Factorial of %d is: %d\n",num,f);
+}
