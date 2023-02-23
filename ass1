@@ -1,0 +1,12 @@
+//Program to print n even numbers//
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n=2;
+	while(n<=100)
+	{
+		printf("%d\t",n);
+		n=n+2;
+	}
+}
